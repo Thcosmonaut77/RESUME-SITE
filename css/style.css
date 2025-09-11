@@ -161,6 +161,11 @@ a i {
   color: #333;
 }
 
+/* Default: hide PDF fallback on web */
+.badges ul {
+  display: none;
+}
+
 /* Print Styles for PDF Export */
 @media print {
   body {
@@ -188,6 +193,12 @@ a i {
   }
   .badges {
     margin-top: 5px;
+    padding-left: 20px;
+  }
+
+  .badges ul {
+    display: block;
+    margin: 0;
     padding-left: 20px;
   }
   .badges li {
