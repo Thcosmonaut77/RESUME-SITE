@@ -162,7 +162,6 @@ a i {
 }
 
 /* Print Styles for PDF Export */
-/* Print Styles for PDF Export */
 @media print {
   body {
     background: #fff;
@@ -179,20 +178,25 @@ a i {
     margin: 0 6px;
     color: #000;
   }
-  /* Hide badges in PDF but show a text fallback */
-  .badges {
-    display: block;
-    margin-top: 5px;
-  }
+
+  /* Hide badges in PDF, show text list instead */
   .badges img {
     display: none;
   }
   .badges::before {
-    content: "Terraform, Jenkins, GitHub Actions, Maven, Nexus, SonarQube, Tomcat, Ansible, AWS, Git, GitHub, Docker, Linux";
-    font-weight: bold;
+    content: none; /* remove the single-line text */
+  }
+  .badges {
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+  .badges li {
+    list-style-type: disc;
+    margin: 4px 0;
     font-size: 0.95em;
     color: #000;
   }
+
   section {
     background: #fff !important;
     border: none;
@@ -200,6 +204,7 @@ a i {
     box-shadow: none;
   }
 }
+
 
 
 /* Download Resume Button */
