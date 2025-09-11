@@ -1,5 +1,12 @@
 # Ibrahim Sulyman – Cloud & DevOps Engineer (Entry-Level)
 
+![Build Resume PDF](https://github.com/Thcosmonaut77/RESUME-SITE/actions/workflows/pdf.yaml/badge.svg)
+[![Latest Resume](https://img.shields.io/github/release/Thcosmonaut77/RESUME-SITE.svg?label=Download%20Resume)](https://github.com/Thcosmonaut77/RESUME-SITE/releases/tag/resume-latest)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-brightgreen)](https://thcosmonaut77.github.io/RESUME-SITE/)
+
+A static resume website with automated PDF generation using GitHub Actions, Node.js, and Puppeteer.
+
+
 This repository contains my **resume website** built with HTML & CSS, hosted on **GitHub Pages**, and automatically exported to **PDF** for easy sharing.
 
 ---
@@ -11,15 +18,23 @@ This repository contains my **resume website** built with HTML & CSS, hosted on 
 
 ## 📄 Download Resume (PDF)
 The latest version of my resume is always available here:  
-🔗 [Download Resume (PDF)](https://thcosmonaut77.github.io/resume-site/resume.pdf)
+🔗 [Download Resume (PDF)](https://thcosmonaut77.github.io/RESUME-SITE/resume.pdf)
 
 ---
 
 ## ⚡ Features
-- Responsive, clean HTML/CSS layout
+- Responsive, clean **HTML/CSS** layout
 - Hosted for free on **GitHub Pages**
-- Auto-generated **resume.pdf** using GitHub Actions + Puppeteer
+- Auto-generated **resume.pdf** using **GitHub Actions + Puppeteer**
 - Print-optimized styles for professional PDF export
+
+---
+
+## 🧑‍💻 Skills Demonstrated
+- CI/CD pipeline automation with **GitHub Actions**
+- Artifact generation and management (**resume.pdf**)
+- Static site hosting on **GitHub Pages**
+- **Idempotent automation** (avoiding redundant commits)
 
 ---
 
