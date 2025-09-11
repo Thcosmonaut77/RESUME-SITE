@@ -5,7 +5,7 @@ This repository contains my **resume website** built with HTML & CSS, hosted on 
 ---
 
 ## 🌐 Live Resume
-🔗 [View Resume Online](https://thcosmonaut77.github.io/resume-site/)
+🔗 [View Resume Online](https://thcosmonaut77.github.io/RESUME-SITE/)
 
 ---
 
