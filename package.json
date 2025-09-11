@@ -1,8 +1,6 @@
 {
   "name": "resume-site",
   "version": "1.0.0",
-  "description": "Resume website with PDF export",
-  "main": "index.html",
   "scripts": {
     "export-pdf": "node export-pdf.js"
   },
