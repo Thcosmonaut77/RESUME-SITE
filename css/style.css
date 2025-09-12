@@ -214,6 +214,11 @@ a i {
     margin-bottom: 1rem;
     box-shadow: none;
   }
+
+    /* Hide Download Resume button in PDF */
+  .download-resume {
+    display: none !important;
+  }
 }
 
 
