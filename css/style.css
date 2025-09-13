@@ -126,22 +126,15 @@ section ul li a {
 
 /* Badges */
 .badges {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  align-items: center;
+  margin-top: 10px;
 }
 .badges img {
   height: 28px;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-}
-
-.badges h3 {
-  grid-column: 1 / -1;
-  margin-top: 15px;
-  font-size: 1rem;
-  color: #333;
 }
 
 /* Footer */

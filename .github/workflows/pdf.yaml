@@ -48,6 +48,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: resume-latest
-          files: Ibrahim Sulyman - Cloud & DevOps Engineer - Resume.pdf
+          files: resume.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
