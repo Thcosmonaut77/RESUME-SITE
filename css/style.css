@@ -232,8 +232,10 @@ a i {
     font-size: 0.95em;
     color: #000;
   }
-
-
+      /* Hide Download Resume button in PDF */
+  .download-resume {
+    display: none !important;
+  }
 }
   .badges li {
     list-style-type: disc;
@@ -249,14 +251,6 @@ a i {
     box-shadow: none;
     page-break-inside: avoid;
   }
-
-    /* Hide Download Resume button in PDF */
-  .download-resume {
-    display: none !important;
-  }
-
-
-
 
 /* Download Resume Button */
 .download-resume {
