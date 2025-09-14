@@ -75,10 +75,9 @@ section:nth-of-type(odd) {
 h2 {
   color: #0f172a;
   border-bottom: 2px solid #38bdf8;
-  display: block;
-  margin-bottom: 0 auto 1rem auto;
+  display: inline-block;
+  margin-bottom: 1rem;
   text-align: center;
-  width: fit-content;
 }
 
 /* Lists */
@@ -230,9 +229,7 @@ a i {
     margin-top: 0;
     padding-top: 0;
   }
-  .badge-group p {
-    display: none;
-  }
+  
   .badge-group li {
     list-style-type: disc;
     margin: 4px 0;
