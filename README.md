@@ -1,4 +1,4 @@
-# Ibrahim Sulyman – Cloud & DevOps Engineer (Entry-Level)
+# Ibrahim Sulyman – Cloud & DevOps Engineer 
 
 ![Build Resume PDF](https://github.com/Thcosmonaut77/RESUME-SITE/actions/workflows/pdf.yaml/badge.svg)
 [![Latest Resume](https://img.shields.io/github/release/Thcosmonaut77/RESUME-SITE.svg?label=Download%20Resume)](https://github.com/Thcosmonaut77/RESUME-SITE/releases/tag/resume-latest)
