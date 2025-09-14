@@ -11,19 +11,20 @@ body {
 /* Header */
 header {
   background: #0f172a;
-  color: #1192dd;
+  color: #fff;
   padding: 2rem 1rem;
   text-align: center;
 }
 header h1 {
   font-size: 2.5rem;
   margin: 0;
+  color: #fff;
 }
 header h2 {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0.5rem 0;
-  color: #1192dd;
+  color: #38bdf8;
 }
 header p {
   max-width: 700px;
@@ -43,14 +44,18 @@ header .contact a {
   color: #38bdf8;
   font-size: 0.95em;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 header .contact a:hover {
   background: #38bdf8;
   color: #fff;
 }
+header .contact a:hover i {
+  color: #fff; 
+}
 header .contact i {
   margin-right: 6px;
-  color: #2009f0;  
+  color: #38bdf8;  
 }
 
 /* Sections */
@@ -89,7 +94,7 @@ ul li {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 10px;
 }
 .skills li {
@@ -125,6 +130,14 @@ section ul li a {
 
 
 /* Badges */
+.badge-group {
+  margin-bottom: 1.5rem;
+}
+.badge-group p {
+  margin: 0 0 6px;
+  font-weight: 600;
+  color: #0f172a;
+}
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -135,6 +148,10 @@ section ul li a {
   height: 28px;
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+.badges img:hover {
+  transform: scale(1.05);
 }
 
 /* Footer */
@@ -189,7 +206,7 @@ a i {
     display: none;
   }
   .badges::before {
-    content: none; /* remove the single-line text */
+    content: none; 
   }
   .badges {
     margin-top: 5px;
@@ -213,6 +230,7 @@ a i {
     border: none;
     margin-bottom: 1rem;
     box-shadow: none;
+    page-break-inside: avoid;
   }
 
     /* Hide Download Resume button in PDF */
@@ -246,4 +264,8 @@ a i {
 .download-resume i {
   margin-right: 8px;
   color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
