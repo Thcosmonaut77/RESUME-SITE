@@ -228,8 +228,8 @@ a i {
   .badges {
     display: none !important;
   }
-  .badge-group {
-    display: none !important;
+  .badge-group p {
+    display: none;
   }
   .badge-group ul {
     display: block !important;
