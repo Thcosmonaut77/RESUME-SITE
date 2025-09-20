@@ -190,21 +190,22 @@ a i {
   body {
     background: #fff;
     color: #000;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   section {
     padding: 1rem 0.5rem;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
   }
   header h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #000;
   }
   header h2 {
     color: #000;
+    font-size: 1.4rem;
   }
   header, footer {
     background: #fff;
@@ -243,6 +244,7 @@ a i {
     margin: 4px 0;
     font-size: 0.95em;
     color: #000;
+    font-size: 1em;
   }
       /* Hide Download Resume button in PDF */
   .download-resume {
