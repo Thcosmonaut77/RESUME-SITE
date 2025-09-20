@@ -245,17 +245,20 @@ a i {
   }
   .badge-group ul {
     display: block !important;
-    margin-top: 0;
-    padding-top: 0;
-    color: #000
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+    margin: 0.5rem 0;
+    color: #000;
   }
   
   .badge-group li {
-    list-style-type: disc;
     margin: 4px 0;
-    font-size: 0.95em;
     color: #000;
     font-size: 1em;
+  }
+  .badge-group li strong {
+    font-weight: 600;
+    color: #000;
   }
       /* Hide Download Resume button in PDF */
   .download-resume {
