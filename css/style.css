@@ -226,9 +226,10 @@ a i {
     content: none; 
   }
   .badges {
-    display: none;
+    display: none !important;
   }
   .badge-group ul {
+    display: block !important;
     margin-top: 0;
     padding-top: 0;
     color: #000
