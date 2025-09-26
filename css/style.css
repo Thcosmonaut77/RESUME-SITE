@@ -225,6 +225,12 @@ a i {
     margin-bottom: 0.2rem;
     border-bottom: 1px solid #000;
   }
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #000;
+  }
   ul li {
     margin: 0.1rem 0 !important;   /* Reduce list item spacing */
     padding: 0 !important;
