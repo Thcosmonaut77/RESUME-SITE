@@ -205,7 +205,7 @@ a i {
   body {
     background: #fff;
     color: #000;
-    font-size: 1em;
+    font-size: 0.85em;
     line-height: 1.2;
     margin: 0;
     padding: 0;
@@ -228,8 +228,8 @@ a i {
   h3 {
     font-size: 0.9rem;
     text-align: left;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #000;
   }
   ul li {
     margin: 0.1rem 0 !important;   /* Reduce list item spacing */
