@@ -213,7 +213,6 @@ a i {
   header, section {
     padding: 0.2rem 0;
     margin-bottom: 0.5rem;
-    margin-top: 5px;
   }
   .skills li {
     font-size: 0.85em;
@@ -221,7 +220,7 @@ a i {
     margin: 0.1rem 0;
   }
   h2 {
-    margin-top: 10px;
+    margin-top: 7px;
     font-size: 1rem;
     text-align: center;
     margin-bottom: 5px;
