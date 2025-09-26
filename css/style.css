@@ -211,7 +211,7 @@ a i {
     padding: 0;
   }
   header, section {
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
     margin-bottom: 0.5rem;
   }
   .skills li {
@@ -228,7 +228,7 @@ a i {
   h3 {
     font-size: 0.9rem;
     text-align: left;
-    
+    margin-bottom: 1rem;
     border-bottom: 1px solid #000;
   }
   ul li {
