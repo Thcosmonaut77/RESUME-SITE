@@ -133,6 +133,10 @@
       </div>
     </div>
 
+
+  <!-- PDF Fallback List -->
+
+
   <!-- PDF Fallback List -->
       <ul> 
         <li><strong>Infrastructure as Code (IaC):</strong> Terraform</li>
@@ -271,7 +275,7 @@
     <ul>
       <li>
         <strong>B.Sc. Geology (Completed 2024)</strong> – Al-Hikmah University, Ilorin, Nigeria  
-        <em>Relevant Coursework:</em> Sedimentology, Mineralogy, Hydrogeology, Geophysics, Structural Geology, Petrography
+        <li><em>Relevant Coursework:</em> Sedimentology, Mineralogy, Hydrogeology, Geophysics, Structural Geology, Petrography</li>
       </li>
     </ul>
   </section>
@@ -283,4 +287,3 @@
 
 </body>
 </html>
-
