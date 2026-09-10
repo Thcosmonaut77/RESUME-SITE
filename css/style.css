@@ -298,7 +298,7 @@ a i {
   html, body {
     height: 100%;
     max-height: 100%;
-    overflow: hidden;
+    overflow: visible !important;  /* Allow content overflow */
     zoom: 90%;
   }
     @page {
@@ -324,6 +324,7 @@ a i {
     border: none;
     margin-bottom: 1rem;
     box-shadow: none;
+    page-break-after: auto;        /* Allow page breaks after sections */
     page-break-inside: avoid;
   }
 
