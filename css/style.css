@@ -299,7 +299,7 @@ a i {
     height: 100%;
     max-height: 100%;
     overflow: visible !important;  /* Allow content overflow */
-    zoom: 90%;
+    zoom: 100%;
   }
     @page {
   size: A4;
