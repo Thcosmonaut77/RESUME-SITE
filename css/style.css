@@ -302,8 +302,8 @@ a i {
     zoom: 90%;
   }
     @page {
-    size: A4;
-    margin: 0.4in;
+  size: A4;
+  margin: 0.5in;  /* Increased margin gives more room */
   }
   .pdf-short {
     display: block !important;
