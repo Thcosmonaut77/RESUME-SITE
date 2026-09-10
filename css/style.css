@@ -319,6 +319,7 @@ a i {
   display: block;
 }
   section {
+    display: block !important;
     background: #fff !important;
     border: none;
     margin-bottom: 1rem;
